@@ -24,6 +24,7 @@ data=pd.read_csv(fp,parse_dates=['DATE'],index_col='DATE')
 # This test print should print first five rows
 print(data.head())
 
+
 # Check the number of rows in the data frame
 print(len(data))
 
